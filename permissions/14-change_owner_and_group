@@ -1,2 +1,2 @@
 #!/bin/bash
-chown current_vincent:current_staff 
+chown -fhR vincent : staff 
