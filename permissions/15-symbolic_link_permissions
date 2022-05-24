@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --from ln vincent:staff
+chown -r vincent:staff
