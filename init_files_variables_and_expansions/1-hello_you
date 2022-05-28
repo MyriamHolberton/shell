@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami myriam hello user
+whoami | echo hello user
