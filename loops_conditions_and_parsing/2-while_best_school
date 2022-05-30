@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#i équivaut à dix foix Best School avec while
+	x=1
+while [ $x -le 10 ]
+do
+  echo "Best School"
+  x=$(( $x + 1 ))
+done
