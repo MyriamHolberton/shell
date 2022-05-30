@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+i équivaut à 10 fois Best School
 for i in {1..10}; do
-    echo "Best School $i"
+    echo "Best School"
+i=$((i+2))
 done
