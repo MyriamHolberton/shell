@@ -6,7 +6,7 @@ then
 	echo "school file exists"
       if  [[ -s "$n" ]];
 	then
-	echo "school file is not  emty"
+	echo "school file is not emty"
      else
       echo "school file is empty"
 fi
