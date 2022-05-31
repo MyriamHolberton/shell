@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #utilisation de while et if
 n=1
-while [ $n -lt 10 ]
+while [ $n -le 10 ]
 do
     echo "Best School"
     ((n++))
-    if [ $n == 9 ]
+    if [ $n == 10 ]
     then
         echo "hi"      
     fi
