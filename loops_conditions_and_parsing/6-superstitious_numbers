@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #utilisation de while avec case
 n=0
-while [[ $n -le 20 ]]; do
+while [ $n -lt 20 ]; do
+	((n++))
 	case $n in 
 		4)
 echo "bad luck from China"
@@ -12,5 +13,8 @@ echo "bad luck from Japan"
 17)
 echo "bad luck from Italy"
 ;;
+*)
+echo $n
+	;;
 esac
 done
