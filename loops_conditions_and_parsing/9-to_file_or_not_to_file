@@ -10,6 +10,6 @@ elif  [[ -s "$n" ]];
 elif [[ -f "$n" ]];
 	then
 		echo "school is a regular file"
-
+	else
 		echo "  "
 fi
