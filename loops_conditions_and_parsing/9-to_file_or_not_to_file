@@ -4,10 +4,16 @@ n=school
 if [[ -e "$n" ]];
 then 
 	echo "school file exists"
-elif  [[ -s "$n" ]];
+else
+echo "school file does not exists"
+fi
+if  [[ -s "$n" ]];
 	then
 	echo "school file is emty"
-elif [[ -f "$n" ]];
+else
+      echo "school file is not empty"
+fi
+if [[ -f "$n" ]];
 	then
 		echo "school is a regular file"
 	else
