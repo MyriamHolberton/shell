@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 #utilisation du if et de else
 if [[ -e school ]];
 then 
