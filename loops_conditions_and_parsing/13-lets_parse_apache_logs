@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-#utilisation
+#utilisation awk
+awk '{print$1}' | sort -n apache-access.log
