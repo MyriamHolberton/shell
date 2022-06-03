@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # utilisation de la commande kill
-kill -l | grep "4-to_infinity_and_beyond"
+kill grep "4-to_infinity_and_beyond"
