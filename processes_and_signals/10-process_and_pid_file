@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
-# utilisation
+# utilisation de plusieurs commande
+sudo touch /var/run/myscript.pid
+sudo bash -c 'echo $$> /var/run/myscript.pid'
+while :; do
+	echo "To infinity and beyond"
+	trap 'echo "I hate the kill command"; sudo /var/run/myscript.pid; exit' 15
+	trap 'echo "Y U no love me?!"' 2
+	trap 'sudo /var/run/myscript.pid; exit' 3
+done
