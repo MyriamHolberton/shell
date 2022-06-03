@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# utilisation de la commande pgrep
+pgrep -l | cat "bash"
